@@ -1,0 +1,26 @@
+.banner {
+    background-image: url("./images/menu_bg.jpg");
+    color: #FFF;
+    height: 70px;
+    vertical-align: bottom;
+    text-align: center;
+    padding: 10em;
+}
+
+.banner-member {
+    padding-bottom: 0.75rem;
+}
+
+.main-icon {
+    text-align: center;
+}
+
+.my-website {
+    background-image: url("./images/title_bg.jpg");
+    height: 100px;
+    width: 390px;
+}
+
+.side {
+    margin-left: -0.4em;
+}
