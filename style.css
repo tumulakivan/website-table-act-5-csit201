@@ -21,6 +21,41 @@
     width: 390px;
 }
 
+.bar-bg {
+    background-image: url("./images/bar_bg.jpg");
+}
+
+.bar {
+    height: 17px;
+}
+
 .side {
-    margin-left: -0.4em;
+    margin-left: -0.25em;
+}
+
+.collage {
+    height: 165px;
+}
+
+.addons {
+    padding: 1em;
+    background: #ff9900;
+}
+
+.website-addons {
+    color: white;
+}
+
+.addon-cell {
+    width: 225px;
+}
+
+li {
+    list-style-image: url("./images/list_img2.jpg");
+}
+
+.features {
+    justify-content: center;
+    align-content: center;
+    text-align: center; 
 }
