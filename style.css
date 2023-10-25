@@ -29,10 +29,6 @@
     height: 17px;
 }
 
-.side {
-    margin-left: -0.25em;
-}
-
 .collage {
     height: 165px;
 }
@@ -40,22 +36,38 @@
 .addons {
     padding: 1em;
     background: #ff9900;
+    height: 385px;
+    width: 200px;
 }
 
 .website-addons {
     color: white;
 }
 
-.addon-cell {
-    width: 225px;
+li.blue-dot {
+    list-style-image: url("./images/list_img2.jpg");
 }
 
-li {
-    list-style-image: url("./images/list_img2.jpg");
+li.orange-dot {
+    list-style-image: url("./images/list_img.jpg");
 }
 
 .features {
     justify-content: center;
     align-content: center;
-    text-align: center; 
+    text-align: left; 
+    padding: 2em;
+}
+
+.main-features {
+    width: 465px;
+}
+
+#feature-text {
+    color: #1376a5;
+}
+
+.buy {
+    color: #ff9900;
+    font-weight: bold;
 }
